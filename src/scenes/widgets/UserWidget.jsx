@@ -24,7 +24,7 @@ const UserWidget = ({ userId, picturePath }) => {
     //call backend API to get user info
     const getUser = async () => {
         console.log(`${userId}`) //i got the user id here, but why cannot?
-        const response = await fetch(`https://odd-ruby-termite-cuff.cyclic.app/users/${userId}`,
+        const response = await fetch(`https://dead-tan-gecko-cape.cyclic.app/users/${userId}`,
         {
             method: "GET",
             headers: { Authorization: `Bearer ${token}` }

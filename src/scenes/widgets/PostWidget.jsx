@@ -44,7 +44,7 @@ import {
   
     const patchLike = async () => {
       console.log("patchLike() fired");
-      const response = await fetch(`https://odd-ruby-termite-cuff.cyclic.app/posts/${postId}/like`, {
+      const response = await fetch(`https://dead-tan-gecko-cape.cyclic.app/posts/${postId}/like`, {
         method: "PATCH",
         headers: {
           Authorization: `Bearer ${token}`,
@@ -75,7 +75,7 @@ import {
             height="auto"
             alt="post"
             style={{ borderRadius: "0.75rem", marginTop: "0.75rem" }}
-            src={`https://odd-ruby-termite-cuff.cyclic.app/assets/${picturePath}`}//this is the issue, but why? it should be under data/index.js
+            src={`https://dead-tan-gecko-cape.cyclic.app/assets/${picturePath}`}//this is the issue, but why? it should be under data/index.js
           />
         )}
         <FlexBetween mt="0.25rem">

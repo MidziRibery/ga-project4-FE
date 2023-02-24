@@ -11,7 +11,7 @@ const PostsWidget = ({ userId, isProfile = false }) => {
   //1st API call: grab all the post from everyone.
   const getPosts = async () => {
     console.log("getPosts() fired ")
-    const response = await fetch("https://odd-ruby-termite-cuff.cyclic.app/posts", {
+    const response = await fetch("https://dead-tan-gecko-cape.cyclic.app/posts", {
       method: "GET",
       headers: { Authorization: `Bearer ${token}` },
     });
@@ -24,7 +24,7 @@ const PostsWidget = ({ userId, isProfile = false }) => {
     console.log("getUserPosts() fired with userId", userId);
     try{
       const response = await fetch(
-        `https://odd-ruby-termite-cuff.cyclic.app/posts/${userId}/posts`,
+        `https://dead-tan-gecko-cape.cyclic.app/posts/${userId}/posts`,
         {
           method: "GET",
           headers: { Authorization: `Bearer ${token}` },
