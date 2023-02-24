@@ -72,7 +72,7 @@ const Form = () => {
 
     console.log("before calling fetch");
     const savedUserResponse = await fetch(
-      "https://dead-tan-gecko-cape.cyclic.app/auth/register",
+      "https://fair-red-capybara.cyclic.app/auth/register",
       {
         method: "POST",
         body: formData,
@@ -88,7 +88,7 @@ const Form = () => {
   };
 
   const login = async (values, onSubmitProps) => {
-    const loggedInResponse = await fetch("https://dead-tan-gecko-cape.cyclic.app/auth/login", {
+    const loggedInResponse = await fetch("https://fair-red-capybara.cyclic.app/auth/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(values),

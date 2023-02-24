@@ -16,7 +16,7 @@ const ProfilePage = () => {
     const isNonMobileScreens = useMediaQuery("(min-width:1000px)");
   
     const getUser = async () => {
-      const response = await fetch(`https://dead-tan-gecko-cape.cyclic.app/users/${userId}`, {
+      const response = await fetch(`https://fair-red-capybara.cyclic.app/users/${userId}`, {
         method: "GET",
         headers: { Authorization: `Bearer ${token}` },
       });

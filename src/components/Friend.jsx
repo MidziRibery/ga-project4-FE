@@ -26,7 +26,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
 
   const patchFriend = async () => {
     const response = await fetch(
-      `https://dead-tan-gecko-cape.cyclic.app/users/${_id}/${friendId}`,
+      `https://fair-red-capybara.cyclic.app/users/${_id}/${friendId}`,
       {
         method: "PATCH",
         headers: {
