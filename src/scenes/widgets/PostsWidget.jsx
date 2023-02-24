@@ -11,7 +11,7 @@ const PostsWidget = ({ userId, isProfile = false }) => {
   //1st API call: grab all the post from everyone.
   const getPosts = async () => {
     console.log("getPosts() fired ")
-    const response = await fetch("http://localhost:3001/posts", {
+    const response = await fetch("/posts", {
       method: "GET",
       headers: { Authorization: `Bearer ${token}` },
     });
@@ -24,7 +24,7 @@ const PostsWidget = ({ userId, isProfile = false }) => {
     console.log("getUserPosts() fired with userId", userId);
     try{
       const response = await fetch(
-        `http://localhost:3001/posts/${userId}/posts`,
+        `/posts/${userId}/posts`,
         {
           method: "GET",
           headers: { Authorization: `Bearer ${token}` },

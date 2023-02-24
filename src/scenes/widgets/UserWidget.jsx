@@ -24,7 +24,7 @@ const UserWidget = ({ userId, picturePath }) => {
     //call backend API to get user info
     const getUser = async () => {
         console.log(`${userId}`) //i got the user id here, but why cannot?
-        const response = await fetch(`http://localhost:3001/users/${userId}`,
+        const response = await fetch(`/users/${userId}`,
         {
             method: "GET",
             headers: { Authorization: `Bearer ${token}` }
