@@ -26,7 +26,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
 
   const patchFriend = async () => {
     const response = await fetch(
-      `/users/${_id}/${friendId}`,
+      `https://odd-ruby-termite-cuff.cyclic.app/users/${_id}/${friendId}`,
       {
         method: "PATCH",
         headers: {
