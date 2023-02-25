@@ -1,3 +1,81 @@
+# Muslim Mastery
+
+This is a MERN stack web application created for General Assembly’s Software Engineering Immersive Program. This is the frontend repository of the application. The backend repository can be found [here](https://github.com/MidziRibery/ga-project4-BE).
+
+Muslim Mastery is the one-stop Social Media place where students and teachers align their intentions in knowledge seeking and mastering them! The platform aims to serve two set of users: Teachers and Students. It helps build the bridge over the gap between providers and seekers of the Islamic knowledge. Teachers can upload their profiles and share what they can offer specifically, while students who are hungry for knowledge, or have dependents who need help with their education, can safely access the platform to find a teacher that fit their needs. By consolidating the specific needs, this platform offers a niche solution to an ever growing demand. Users can also leave comments or ratings of their experience which will increase the quality of performance of the teachers.
+
+### Technical Used
+
+These are the tools that helped made the application possible =>
+
+Frontend:
+
+- [React](https://reactjs.org/)
+- [React Router](https://reactrouter.com/en/main)
+- [React Dropzone](https://react-dropzone.js.org/)
+- [Styled Components](https://styled-components.com/)
+- [Material UI Icons](https://mui.com/material-ui/material-icons/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [Redux Persist](https://www.npmjs.com/package/redux-persist)
+- [Formik](https://formik.org/)
+- [Yup](https://www.npmjs.com/package/yup)
+
+Backend:
+
+- [Node.js](https://nodejs.org/en/)
+- [Express](https://expressjs.com/)
+- [Mongoose](https://mongoosejs.com/)
+- [JWT Token](https://jwt.io/)
+- [Multer](https://www.npmjs.com/package/multer)
+
+Database:
+
+- [MongoDB](https://www.mongodb.com/home)
+
+### Installation Instructions
+
+All the necessary libraries needed for the web application to run are found in the package.json file provided. Install them using <code>npm install</code> if you are using node package manager.
+
+If you wish to run the backend server with your own database, you will need to link your database to the server for it to run properly.
+
+## Development Process
+
+### User Stories
+
+Firstly, the important features of the web application were determined having these user stories in mind:
+
+    User Story 1: It is not easy to find credible Teachers to teach the Islamic Knowledge that can cater to my specific needs such as location, availability, and platform.
+    User Story 2: As a teacher, I want to expand my clientele without the need to spend money on advertisements. As most social media platform is very wide, there is no niche solution.
+
+From there, these are some of the main features that our web application should have:
+
+- Platform where teachers and student identify themselves and share more background information about what they can provide and their needs by registering
+- Function to add friends
+- Function to allow users to comment, upload media and post.
+- Function to allow users to like comments and posts.
+
+### Wireframes
+
+Simple wireframes were then developed to accommodate to all the features the application should have:
+
+![Login Page Wireframe]
+
+![Home Page Wireframe]
+
+![Profile Page Wireframe]
+
+### Server Routes
+
+### Problems Encountered
+
+### Future Development
+
+- To have separate forms for teachers and students.
+  - To make the registration for teachers stricter, by asking them to upload certifications before enabling them to proceed with registering.
+  - To break down the components of the form further, so we can pick up specific data, consolidate them and add to search functions and tags.
+- To add an admin dashboard to moderate the comments and contents of posts and profiles, as well as to process the registration.
+  - Allow admin to make changes to the video, not just deleting them
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
